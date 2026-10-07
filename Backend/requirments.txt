@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic-settings
+python-dotenv
+supabase
+youtube-transcript-api
+google-genai
