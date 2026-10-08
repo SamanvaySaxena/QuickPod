@@ -3,7 +3,7 @@ import type {
   StudyGuide,
 } from "@/types/study-guide";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL;
+const API_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/+$/, "");
 
 interface APIErrorResponse {
   detail?: string;
